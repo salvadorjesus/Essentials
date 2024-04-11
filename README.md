@@ -1,3 +1,18 @@
+# Xamarin.Essentials fork with fixes for Android 14
+This is a fork for the Xamarin Essentials project adding support for Android 14.
+
+The official project has the following issue:
+[Connectivity.ConnectivityChanged handler does not work when targeting API 34 on Android 14](https://github.com/xamarin/Essentials/issues/2130).
+
+With the following proposed fix:
+[Fix connectivity broadcast receiver never triggered on android 14.0/34+](https://github.com/xamarin/Essentials/pull/2132).
+
+Unfortunately, it's look like this fix won't appear on official release due to end of support date.
+
+I'm forking this repo an uploading the resulting nugget to nugget.org for everyone convenience.
+
+What follows is the original README.MD file:
+
 # Xamarin.Essentials
 
 Xamarin.Essentials gives developers essential cross-platform APIs for their mobile applications. 
