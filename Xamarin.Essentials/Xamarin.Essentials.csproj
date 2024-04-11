@@ -4,30 +4,31 @@
     <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">$(TargetFrameworks);uap10.0.16299;</TargetFrameworks>
     <AssemblyName>Xamarin.Essentials</AssemblyName>
     <RootNamespace>Xamarin.Essentials</RootNamespace>
-    <PackageId>Xamarin.Essentials</PackageId>
+    <PackageId>com.salvadorjesus.Xamarin.Essentials</PackageId>
     <PackageIcon>icon.png</PackageIcon>
     <!-- <PackageIconUrl>https://raw.githubusercontent.com/xamarin/Essentials/master/Assets/xamarin.essentials_128x128.png</PackageIconUrl> -->
     <Summary>Xamarin.Essentials: a kit of essential API's for your apps</Summary>
-    <PackageTags>xamarin, windows, uwp, ios, android, watchos, tvos, tizen, toolkit, xamarin.forms, Xamarin.Essentials, kit</PackageTags>
-    <Title>Xamarin.Essentials</Title>
-    <Description>Xamarin.Essentials: a kit of essential API's for your apps</Description>
+    <PackageTags>xamarin, windows, uwp, ios, android, watchos, tvos, tizen, toolkit, xamarin.forms, Xamarin.Essentials, kit, Android 14, Android API 34</PackageTags>
+    <Title>Xamarin.Essentials SJRC</Title>
+    <Description>Xamarin.Essentials fork, with support for Android 14, solving a connectivity issue:
+https://github.com/xamarin/Essentials/pull/2132</Description>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
     <Version>1.0.0</Version>
     <PackageVersion>1.0.0</PackageVersion>
-    <Authors>Microsoft</Authors>
+    <Authors>SalvadorJesus</Authors>
     <Owners>microsoft,Xamarin,XamarinNuGet</Owners>
     <NeutralLanguage>en</NeutralLanguage>
-    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
-    <RepositoryUrl>https://github.com/xamarin/Essentials</RepositoryUrl>
-    <PackageReleaseNotes>See: https://aka.ms/xamarinessentials-releasenotes</PackageReleaseNotes>
+    <Copyright>Salvador Jesús Romero Castellano</Copyright>
+    <RepositoryUrl>https://github.com/salvadorjesus/Essentials</RepositoryUrl>
+    <PackageReleaseNotes>Forked from main branch and solving Connectivity.ConnectivityChanged handler does not work when targeting API 34 on Android 14 phones / emulators (https://github.com/xamarin/Essentials/issues/2130).</PackageReleaseNotes>
     <DefineConstants>$(DefineConstants);</DefineConstants>
     <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://go.microsoft.com/fwlink/?linkid=868960</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/salvadorjesus/Essentials</PackageProjectUrl>
     <MDocDocumentationDirectory>$(MSBuildThisFileDirectory)..\docs\en</MDocDocumentationDirectory>
     <DebugType>portable</DebugType>
     <Configurations>Debug;Release</Configurations>
